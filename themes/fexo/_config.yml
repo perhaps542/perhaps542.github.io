@@ -1,0 +1,189 @@
+# Blog info
+blog_name: Perhaps
+slogan: 年华里我们失去的是种心情
+url: http://perhaps542.github.io 
+
+# Set avatar (Absolute url and relative url)
+avatar: /images/avatar.jpeg
+
+# Set favicon
+favicon: /favicon.ico
+
+# For seo
+keywords: perhaps
+
+home_nav:
+  - name: Blog
+    url: /archives
+    target_blank: false #不在新页面打开
+  - name: Share
+    url: /project
+    target_blank: true #在新页面打开
+  - name: Github
+    url: https://github.com/perhaps542
+    target_blank: true
+  - name: Facebook
+    url: https://www.facebook.com/profile.php?id=100006643451119
+    target_blank: true
+
+# config page nav
+page_nav:
+  - name: 博客
+    url: /archives/
+    target_blank: false # 不在新页面打开
+  - name: 分类
+    url: /category/
+    target_blank: false
+  - name: 标签
+    url: /tag/
+    target_blank: false
+  - name: 友链
+    url: /link/
+    target_blank: false 
+  - name: 关于
+    url: /about
+    target_blank: false
+  # - name: RSS
+    # url: /atom.xml
+    # target_blank: true # 在新页面打开
+  # - name: 搜索
+  #   url: /search/
+  #   target_blank: true # 在新页面打开
+
+page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
+
+# 面包屑
+breadcrumb:
+  isShow: true # true|fase
+
+# 盒子
+toolbox:
+  isShow: true # true|fase
+  text: 菜单
+
+search_slogan:
+  isShow: true # true|fase
+  text: 
+
+link_slogan:
+  isShow: true # true|fase
+  text: 亲爱的赵先生
+
+
+# set backtop show or hide
+backtop:
+  home: false
+  archive: false
+  category: true
+  tag: true
+  post: true
+  link: false
+  about: false
+
+donation:
+  show: false
+  btn_text: 支持一下
+  tip: 扫一扫，支持forsigner
+  items:
+    - type: 微信
+      text: 微信扫一扫
+      imgUrl: /images/qr-wechat.png
+    - type: 支付宝
+      text: 支付宝扫一扫
+      imgUrl: /images/qr-alipay.png
+
+
+
+
+post:
+  header_align: CENTER # LEFT|CENTER
+  showToc: true # true|false
+  showComments: true
+  open_in_new_window: false
+  show_prev_next: true
+
+# =========================================================
+# 个性化设置
+# =========================================================
+
+# Custom CSS style, 推荐把样式文件放在blog源码文件夹，而不是主题里面
+personal_style: /css/personal-style.css
+
+# 这个值取决于你得背景图片是深色还是浅色，深色用dark，浅色用light
+home_background_scheme: light # dark、light
+
+# custom font-family 暂时只支持这3种英文字体，你可以完全自定义字体(看文档)
+# blog_name_font_familiy: calligraffittiregular
+# blog_name_font_familiy: Lobster-Regular
+blog_name_font_familiy: PoiretOne-Regular
+
+init_page_content: HOME_NAV  # HOME_NAV | POST
+
+
+# =========================================================
+# 第三方服务
+# =========================================================
+# Stats
+google_analytics:
+baidu_analytics: 
+
+# Comment service
+# disqus_shortname: perhaps
+# hypercomments_id: 89821
+# gentie_key: d16a7241e7cd4b389584ed8db2a4e8bc
+
+# 注意，多说即将关闭，建议选用上面四个评论系统
+# duoshuo_shortname: forsigner
+
+# 不算子,文章访问量统计和显示
+busuanzi: true
+
+# =========================================================
+# 页面内容设置
+# =========================================================
+about: 
+  - type: me
+    icon: icon-user
+    text_value:
+    - "一只现在还不咋地的运营喵"
+  - type: Github
+    icon: icon-github
+    text_key: Github
+    text_value: "@perhaps542"
+    text_value_url: https://github.com/perhaps542
+  - type: weibo
+    icon: icon-weibo
+    text_key: 微博
+    text_value: "@佳佳是个软妹纸"
+    text_value_url: http://weibo.com/u/1847075964
+  - type: mail
+    icon: icon-mail
+    text_key: 
+    text_value: "542perhaps@gmail.com"
+  - type: location
+    icon: icon-location
+    text_value: 北京
+
+link:
+  - name: b1ngz
+    info: A Man Who Is Finding The Way Home
+    url: https://b1ngz.github.io
+    avatar: https://b1ngz.github.io/assets/images/profile.jpg
+
+
+share:
+  - type: personal
+    name: perhaps
+    url: https://github.com/perhaps542
+    intro: A Girl Who Is Finding The Way Home
+  - type: public
+    name: Gitbook
+    url: https://www.gitbook.com/@wizardforcel
+    intro: 超级棒的各种 book 分享
+  - type: public
+    name: Sec-news
+    url: http://wiki.ioin.in/
+    intro: Designed and built by Phithon
+
+
+  
