@@ -17,7 +17,7 @@ home_nav:
     url: /archives
     target_blank: false #不在新页面打开
   - name: Share
-    url: /project
+    url: /project/
     target_blank: true #在新页面打开
   - name: Github
     url: https://github.com/perhaps542
