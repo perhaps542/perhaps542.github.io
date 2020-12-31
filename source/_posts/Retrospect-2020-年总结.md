@@ -1,5 +1,5 @@
 ---
-title: Retrospect|2020 年总结
+title: Retrospect | 2020 年总结
 date: 2020-12-31 23:47:17
 category: Chores
 tags: Retrospect
