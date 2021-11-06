@@ -23,7 +23,7 @@ tags: Talking
 
 现在再提起那朵云，更多的是对过去的怀念，和对身边依然还在的人的珍惜，没有了什么不切实际的奢望，或者扒着不想放过自己的难受。
 
-{% aplayer "岁月神偷" "金玟歧" "http://www.ytmp3.cn/down/44537.mp3" "http://p2.music.126.net/54wdQi_3rpjreY2oo2jb7w==/5998935441219557.jpg?param=130y130" "autoplay" %}
+{% aplayer "岁月神偷" "金玟歧" "https://sharefs.ali.kugou.com/202111062001/616823bfa724aaacdf0473044837bbe2/KGTX/CLTX001/aa1a8b5e3cdbc5131fde902e7e582288.mp3" "http://p2.music.126.net/54wdQi_3rpjreY2oo2jb7w==/5998935441219557.jpg?param=130y130" "autoplay" %}
 
 <br>
 

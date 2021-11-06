@@ -69,7 +69,7 @@ tags: Retrospect
 
 最后放一首今年最火的歌结尾。
 
-{% aplayer "野狼 Disco" "宝石GEM" "http://music.163.com/song/media/outer/url?id=1357785909" "http://p2.music.126.net/USRrIEfSNxJ4JnfKp4f6pA==/109951164470147956.jpg?param=130y130" "autoplay" %}
+{% aplayer "野狼 Disco" "宝石GEM" "https://sharefs.ali.kugou.com/202111062000/5059a0ab056032195f28195561a1ee6f/KGTX/CLTX001/06446873eaff229db53cbb70a1e9376a.mp3" "http://p2.music.126.net/USRrIEfSNxJ4JnfKp4f6pA==/109951164470147956.jpg?param=130y130" "autoplay" %}
 
 ---
 

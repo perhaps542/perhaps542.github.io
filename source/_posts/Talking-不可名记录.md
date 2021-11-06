@@ -75,7 +75,7 @@ tags: Talking
 
 哎，晚安。
 
-{% aplayer "忘与记" "陈尤利" "https://sharefs.ali.kugou.com/202110170742/6f258577a67e7976c993220e6f2da670/KGTX/CLTX001/94b6941c4fab460a4ace6bd7307ab544.mp3" "https://i.ytimg.com/vi/qkx9N5TXluM/maxresdefault.jpg" "autoplay" %}
+{% aplayer "忘与记" "陈尤利" "https://sharefs.ali.kugou.com/202111060737/b03be055f4e685993d31b3fda8af464a/KGTX/CLTX001/63bdfdac86ca6b58b3e9f290b50f4d0d.mp3" "https://i.ytimg.com/vi/qkx9N5TXluM/maxresdefault.jpg" "autoplay" %}
 
 <br>
 
