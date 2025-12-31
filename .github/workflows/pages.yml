@@ -17,9 +17,9 @@ jobs:
         node-version: '18'
         cache: 'npm'
         
-    - name: Install dependencies with force resolutions
+    - name: Install compatible strip-ansi version
       run: |
-        npm install -g npm-force-resolutions
+        npm install strip-ansi@6.0.1 --save-dev --force
         npm install --force
         
     - name: Build
