@@ -1,8 +1,9 @@
-name: Deploy to GitHub Pages
+name: Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - source  # default branch
 
 jobs:
   build:
