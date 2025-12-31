@@ -17,9 +17,9 @@ jobs:
         node-version: '18'
         cache: 'npm'
         
-    - name: Install dependencies
+    - name: Install dependencies with force resolutions
       run: |
-        rm -rf node_modules
+        npm install -g npm-force-resolutions
         npm install --force
         
     - name: Build
