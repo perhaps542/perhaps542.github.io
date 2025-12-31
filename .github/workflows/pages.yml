@@ -3,7 +3,7 @@ name: Pages
 on:
   push:
     branches:
-      - source  # default branch
+      - source
 
 jobs:
   build:
@@ -11,20 +11,23 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Setup Node.js
+    - name: Setup Node.js 16
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '16'
         cache: 'npm'
         
-    - name: Install compatible strip-ansi version
+    - name: Install dependencies
       run: |
-        npm install strip-ansi@6.0.1 --save-dev --force
-        npm install --force
+        rm -rf node_modules package-lock.json
+        npm install --legacy-peer-deps
+        npm install strip-ansi@6.0.1 --no-save
         
     - name: Build
-      run: npm run build
-      
+      run: |
+        npx hexo clean
+        npx hexo generate
+        
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
