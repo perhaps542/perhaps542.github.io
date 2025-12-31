@@ -10,34 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    
-    - name: Setup Node.js 16
+
+    - name: Setup Node.js 18
       uses: actions/setup-node@v4
       with:
-        node-version: '16'  # 必须使用 Node.js 16
+        node-version: '18'
         cache: 'npm'
-        
-    - name: Force install correct strip-ansi version
-      run: |
-        # 清理
-        rm -rf node_modules package-lock.json
-        
-        # 先安装 hexo
-        npm install hexo@6.3.0 --save --legacy-peer-deps
-        
-        # 进入 hexo 的 node_modules 目录，强制安装 strip-ansi 6.0.1
-        cd node_modules/hexo
-        npm install strip-ansi@6.0.1 --no-save --force
-        cd ../..
-        
-        # 安装其他依赖
-        npm install --legacy-peer-deps
-        
+
+    - name: Install dependencies
+      run: npm ci
+
     - name: Build
       run: |
         npx hexo clean
         npx hexo generate
-        
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
